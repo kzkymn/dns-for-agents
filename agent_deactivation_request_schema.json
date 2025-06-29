@@ -28,6 +28,12 @@
       "type": "string",
       "description": "The extension for the agent (e.g., 'agent')."
     }
-  }
-  "required": ["protocol", "agentName", "agentCategory", "providerName", "version"]
+  },
+  "required": [
+    "protocol",
+    "agentName",
+    "agentCategory",
+    "providerName",
+    "version"
+  ]
 }

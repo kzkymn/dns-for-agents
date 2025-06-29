@@ -6,25 +6,42 @@
   "properties": {
     "status": {
       "type": "string",
-      "enum": ["success", "failure"],
+      "enum": [
+        "success",
+        "failure"
+      ],
       "description": "Status of the request."
     },
     "respondingAgent": {
       "type": "object",
       "description": "Identifier of the agent that was renewed.",
       "properties": {
-        "protocol": {"type": "string"},
-        "agentName": {"type": "string"},
-        "agentCategory": {"type": "string"},
-        "providerName": {"type": "string"},
-        "version": {"type": "string"},
-        "extension": {"type": "string"}
+        "protocol": {
+          "type": "string"
+        },
+        "agentName": {
+          "type": "string"
+        },
+        "agentCategory": {
+          "type": "string"
+        },
+        "providerName": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "extension": {
+          "type": "string"
+        }
       },
-      "required": ["protocol", "agentName", "agentCategory", "providerName", "version"]
-    },
-      "type": "string",
-      "enum": ["success", "failure"],
-      "description": "Status of the request."
+      "required": [
+        "protocol",
+        "agentName",
+        "agentCategory",
+        "providerName",
+        "version"
+      ]
     },
     "errorMessage": {
       "type": "string",
